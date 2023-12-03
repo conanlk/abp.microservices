@@ -1,2 +1,6 @@
 # abp.microservices
-Project micro services with ABP framework
+
+# Run the script
+    ```python
+    .\init.ps1 YourProjectName
+    ```
