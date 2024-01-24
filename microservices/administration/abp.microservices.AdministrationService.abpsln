@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "abp.microservices.AdministrationService": {
+      "path": "abp.microservices.AdministrationService.abpmdl"
+    }
+  }
+}
