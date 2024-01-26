@@ -8,24 +8,31 @@ dotnet new classlib -n "$name.EventBus" -o "shared/$name.EventBus"
 dotnet new classlib -n "$name.Permisson" -o "shared/$name.Permisson"
 dotnet new classlib -n "$name.Security" -o "shared/$name.Security"
 
-abp new "Identity" -t module --no-ui -o "modules/identity"
-abp new "Notification" -t module --no-ui -o "modules/notification"
+abp new "Identity" -t module --no-ui -o "modules/identity" --add-to-solution-file
+abp new "Notification" -t module --no-ui  -o "modules/notification"
 abp new "SaaS" -t module --no-ui -o "modules/saas"
 
 mkdir "./applications"
 mkdir "./microservices"
 
 Move-Item -Path "./modules/identity/host/Identity.AuthServer" -Destination "./applications/AuthServer.Host/" -Force
-mv  "./applications/AuthServer/Identity.AuthServer.csproj" "./applications/AuthServer/AuthServer.csproj"
+mv  "./applications/AuthServer.Host/Identity.AuthServer.csproj" "./applications/AuthServer.Host/AuthServer.Host.csproj"
 Move-Item -Path "./modules/identity/host/Identity.HttpApi.Host" -Destination "./microservices/IdentityService.Host/" -Force
-mv "./microservices/IdentityService.Host/Identity.HttpApi.Host" "./microservices/IdentityService.Host/IdentityService.Host/"
+mv "./microservices/IdentityService.Host/Identity.HttpApi.Host.csproj" "./microservices/IdentityService.Host/IdentityService.Host.csproj"
 Move-Item -Path "./modules/notification/host/Notification.HttpApi.Host" -Destination "./microservices/NotificationService.Host/" -Force
-mv "./microservices/NotificationService.Host/Notification.HttpApi.Host" "./microservices/NotificationService.Host/NotificationService.Host"
+mv "./microservices/NotificationService.Host/Notification.HttpApi.Host.csproj" "./microservices/NotificationService.Host/NotificationService.Host.csproj"
 Move-Item -Path "./modules/saas/host/SaaS.HttpApi.Host" -Destination "./microservices/SaaSService.Host/" -Force
-mv "./microservices/SaaSService.Host/SaaS.HttpApi.Host" "./microservices/SaaSService.Host/SaaSService.Host"
+mv "./microservices/SaaSService.Host/SaaS.HttpApi.Host.csproj" "./microservices/SaaSService.Host/SaaSService.Host.csproj"
+
+Remove-Item -Recurse -Force (Get-ChildItem -r **/*.MongoDB.Tests)
+Remove-Item -Recurse -Force (Get-ChildItem -r **/*.MongoDB)
+Remove-Item -Recurse -Force (Get-ChildItem -r **/*.Host.Shared)
+Remove-Item -Recurse -Force (Get-ChildItem -r **/*.Installer)
 
 dotnet new sln -n "$name"
 dotnet sln "./$name.sln" add (Get-ChildItem -r **/*.csproj)
+
+dotnet sln "./abp.microservices.sln" add (Get-ChildItem -r **/*.csproj)
 
 # abp new "$name" -t app -u angular -dbms PostgreSQL -m none --separate-identity-server --database-provider ef -csf -o "temp"
 # Move-Item -Path "./temp/$name/aspnet-core/src/$name.DbMigrator" -Destination "./shared/" -Force
