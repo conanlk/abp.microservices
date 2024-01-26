@@ -1,7 +1,0 @@
-{
-  "modules": {
-    "abp.microservices.SaaSService": {
-      "path": "abp.microservices.SaaSService.abpmdl"
-    }
-  }
-}

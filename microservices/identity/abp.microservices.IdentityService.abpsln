@@ -1,7 +1,0 @@
-{
-  "modules": {
-    "abp.microservices.IdentityService": {
-      "path": "abp.microservices.IdentityService.abpmdl"
-    }
-  }
-}
