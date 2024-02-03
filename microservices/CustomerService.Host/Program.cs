@@ -6,7 +6,7 @@ using Microsoft.Extensions.Hosting;
 using Serilog;
 using Serilog.Events;
 
-namespace Customer;
+namespace CustomerService.Host;
 
 public class Program
 {

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Volo.Abp.AspNetCore.Mvc;
 
-namespace Identity.Controllers;
+namespace IdentityService.Host.Controllers;
 
 public class HomeController : AbpController
 {

@@ -1,7 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Customer.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Volo.Abp.EntityFrameworkCore;
 
-namespace Customer.EntityFrameworkCore;
+namespace CustomerService.Host.EntityFrameworkCore;
 
 public class CustomerHttpApiHostMigrationsDbContext : AbpDbContext<CustomerHttpApiHostMigrationsDbContext>
 {

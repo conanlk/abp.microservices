@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 
-namespace Customer.EntityFrameworkCore;
+namespace CustomerService.Host.EntityFrameworkCore;
 
 public class CustomerHttpApiHostMigrationsDbContextFactory : IDesignTimeDbContextFactory<CustomerHttpApiHostMigrationsDbContext>
 {

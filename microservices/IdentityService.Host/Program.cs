@@ -6,7 +6,7 @@ using Microsoft.Extensions.Hosting;
 using Serilog;
 using Serilog.Events;
 
-namespace Identity;
+namespace IdentityService.Host;
 
 public class Program
 {
