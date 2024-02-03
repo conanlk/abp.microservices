@@ -3,5 +3,5 @@ This is script to create template solution microservices with abp framework in M
 Requeried powershell on MacOs, If you don't have this tool, please install this tool at <a href="https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-macos?view=powershell-7.4">here</a>
 
 # Run the script
-    Go to powershell with command : <pre>pwsh</pre>
-    Create template : <pre>.\init.ps1 YourProjectName Service1 Service2 ...</pre>
+    Go to powershell with command : pwsh
+    Create template : .\init.ps1 YourProjectName Service1 Service2 ...
