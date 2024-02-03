@@ -1,9 +1,10 @@
 ﻿using System.IO;
+using Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 
-namespace Identity.EntityFrameworkCore;
+namespace AuthServer.Host.EntityFrameworkCore;
 
 public class AuthServerDbContextFactory : IDesignTimeDbContextFactory<AuthServerDbContext>
 {
@@ -12,7 +13,7 @@ public class AuthServerDbContextFactory : IDesignTimeDbContextFactory<AuthServer
         var configuration = BuildConfiguration();
 
         var builder = new DbContextOptionsBuilder<AuthServerDbContext>()
-            .UseSqlServer(configuration.GetConnectionString("Default"));
+            .UseSqlServer(configuration.GetConnectionString(IdentityDbProperties.ConnectionStringName));
 
         return new AuthServerDbContext(builder.Options);
     }

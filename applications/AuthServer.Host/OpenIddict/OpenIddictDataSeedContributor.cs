@@ -13,7 +13,7 @@ using Volo.Abp.DependencyInjection;
 using Volo.Abp.PermissionManagement;
 using Volo.Abp.Uow;
 
-namespace Identity.OpenIddict;
+namespace AuthServer.Host.OpenIddict;
 
 /* Creates initial data that is needed to property run the application
  * and make client-to-server communication possible.

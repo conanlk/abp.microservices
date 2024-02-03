@@ -1,6 +1,9 @@
 using System;
 using System.Linq;
 using System.Threading.Tasks;
+using abp.microservices.Shared.Extensions.Applicationbuilder;
+using AuthServer.Host.EntityFrameworkCore;
+using Identity;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.DataProtection;
@@ -47,7 +50,7 @@ using Volo.Abp.TenantManagement;
 using Volo.Abp.TenantManagement.EntityFrameworkCore;
 using Volo.Abp.UI.Navigation.Urls;
 
-namespace Identity;
+namespace AuthServer.Host;
 
 [DependsOn(
     typeof(AbpAccountWebOpenIddictModule),
@@ -81,7 +84,7 @@ namespace Identity;
     typeof(AbpAspNetCoreSerilogModule),
     typeof(AbpSwashbuckleModule)
     )]
-public class IdentityAuthServerModule : AbpModule
+public class AuthServerHostModule : AbpModule
 {
     public override void PreConfigureServices(ServiceConfigurationContext context)
     {
@@ -139,6 +142,8 @@ public class IdentityAuthServerModule : AbpModule
             options.Languages.Add(new LanguageInfo("es", "es", "Español"));
             options.Languages.Add(new LanguageInfo("el", "el", "Ελληνικά"));
         });
+        
+        context.Services.AddAbpDbContext<AuthServerDbContext>(options => { options.AddDefaultRepositories(); });
 
         Configure<AbpAuditingOptions>(options =>
         {
@@ -190,6 +195,12 @@ public class IdentityAuthServerModule : AbpModule
 #if DEBUG
         context.Services.Replace(ServiceDescriptor.Singleton<IEmailSender, NullEmailSender>());
 #endif
+    }
+
+    public override void PostConfigureServices(ServiceConfigurationContext context)
+    {
+        base.PostConfigureServices(context);
+        context.Services.EnsureMigrationOfContext<AuthServerDbContext>();
     }
 
     public async override Task OnApplicationInitializationAsync(ApplicationInitializationContext context)

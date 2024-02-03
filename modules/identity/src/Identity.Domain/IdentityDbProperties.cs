@@ -6,5 +6,7 @@ public static class IdentityDbProperties
 
     public static string? DbSchema { get; set; } = null;
 
-    public const string ConnectionStringName = "Identity";
+    public const string ConnectionStringName = "Default";
+    
+    public const string IdentityUserTable = "AbpUsers";
 }

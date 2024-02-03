@@ -25,5 +25,5 @@ public class IdentityDbContext : AbpDbContext<IdentityDbContext>, IIdentityDbCon
 
         builder.ConfigureIdentity();
         builder.ConfigureIdentityServer();
-        }
+    }
 }
