@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Monitor": {
+      "path": "Monitor.abpmdl"
+    }
+  }
+}

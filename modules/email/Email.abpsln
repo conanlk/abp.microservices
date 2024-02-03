@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Email": {
+      "path": "Email.abpmdl"
+    }
+  }
+}

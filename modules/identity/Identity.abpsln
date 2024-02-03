@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Identity": {
+      "path": "Identity.abpmdl"
+    }
+  }
+}

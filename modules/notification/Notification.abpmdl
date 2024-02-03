@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "Notification.Domain.Shared": {
+      "path": "src/Notification.Domain.Shared/Notification.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Notification.Domain": {
+      "path": "src/Notification.Domain/Notification.Domain.abppkg",
+      "folder": "src"
+    },
+    "Notification.Application.Contracts": {
+      "path": "src/Notification.Application.Contracts/Notification.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Notification.Application": {
+      "path": "src/Notification.Application/Notification.Application.abppkg",
+      "folder": "src"
+    },
+    "Notification.EntityFrameworkCore": {
+      "path": "src/Notification.EntityFrameworkCore/Notification.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Notification.MongoDB": {
+      "path": "src/Notification.MongoDB/Notification.MongoDB.abppkg",
+      "folder": "src"
+    },
+    "Notification.HttpApi": {
+      "path": "src/Notification.HttpApi/Notification.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Notification.HttpApi.Client": {
+      "path": "src/Notification.HttpApi.Client/Notification.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Notification.TestBase": {
+      "path": "test/Notification.TestBase/Notification.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Notification.EntityFrameworkCore.Tests": {
+      "path": "test/Notification.EntityFrameworkCore.Tests/Notification.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Notification.MongoDB.Tests": {
+      "path": "test/Notification.MongoDB.Tests/Notification.MongoDB.Tests.abppkg",
+      "folder": "test"
+    },
+    "Notification.Domain.Tests": {
+      "path": "test/Notification.Domain.Tests/Notification.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Notification.Application.Tests": {
+      "path": "test/Notification.Application.Tests/Notification.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Notification.HttpApi.Host": {
+      "path": "host/Notification.HttpApi.Host/Notification.HttpApi.Host.abppkg",
+      "folder": "host"
+    },
+    "Notification.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Notification.HttpApi.Client.ConsoleTestApp/Notification.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Notification.AuthServer": {
+      "path": "host/Notification.AuthServer/Notification.AuthServer.abppkg",
+      "folder": "host"
+    },
+    "Notification.Host.Shared": {
+      "path": "host/Notification.Host.Shared/Notification.Host.Shared.abppkg",
+      "folder": "host"
+    }
+  }
+}

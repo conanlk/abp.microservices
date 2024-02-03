@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Payment</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="8.0.2" />
+    <PackageReference Include="Volo.Abp.TenantManagement.HttpApi" Version="8.0.2" />
+    <ProjectReference Include="..\Payment.Application.Contracts\Payment.Application.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
