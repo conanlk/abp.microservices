@@ -1,4 +1,7 @@
 $name = $args[0]
+mkdir "./src"
+cd "./src"
+
 dotnet new sln -n "$name"
 
 mkdir "./applications"
@@ -58,3 +61,4 @@ Remove-Item -Recurse -Force (Get-ChildItem -r **/database)
 
 dotnet sln "./$name.sln" add (Get-ChildItem -r **/*.csproj)
 
+cd "../"
