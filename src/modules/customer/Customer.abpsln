@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Customer": {
+      "path": "Customer.abpmdl"
+    }
+  }
+}

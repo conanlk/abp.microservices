@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Payment": {
+      "path": "Payment.abpmdl"
+    }
+  }
+}

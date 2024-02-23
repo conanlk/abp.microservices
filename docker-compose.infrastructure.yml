@@ -1,0 +1,28 @@
+version: "1.0"
+
+services:
+  postgresql:
+    image: bitnami/postgresql
+    volumes:
+      - dbdata:/var/lib/postgresql/data
+      - ./docker/postgresql/conf/extended.conf:/bitnami/postgresql/conf/conf.d/extended.conf
+
+  rabbitmq:
+    image: bitnami/rabbitmq
+    
+  redis:
+    image: bitnami/redis
+  
+  seq:
+    image: datalust/seq
+    environment:
+      - ACCEPT_EULA=Y
+
+  maildev:
+    image: cnieg/maildev
+    environment:
+      - MAILDEV_INCOMING_USER=admin
+      - MAILDEV_INCOMING_PASS=StrongP@ssWord
+
+volumes:
+  dbdata:

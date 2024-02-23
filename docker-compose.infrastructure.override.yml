@@ -1,0 +1,35 @@
+version: "1.0"
+
+services:
+  postgresql:
+    environment:
+      - POSTGRESQL_USERNAME=sa
+      - POSTGRESQL_PASSWORD=StrongP@ssWord
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./docker/postgresql/initdb.sql:/docker-entrypoint-initdb.d/initdb.sql
+
+  rabbitmq:
+    environment:
+      - RABBITMQ_USERNAME=rabbitmq
+      - RABBITMQ_PASSWORD=StrongP@ssWord
+      - plugins=rabbitmq_management
+    ports:
+      - "15672:15672"
+      - "5672:5672"
+
+  redis:
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+    ports:
+      - "6379:6379"
+  
+  seq:
+    ports:
+      - "5341:80"
+
+  maildev:
+    ports:
+      - "1080:1080"
+      - "2525:1025"
