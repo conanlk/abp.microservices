@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Product": {
+      "path": "Product.abpmdl"
+    }
+  }
+}
