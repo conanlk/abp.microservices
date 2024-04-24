@@ -5007,3 +5007,4 @@ Volo.Abp.AbpInitializationException: An error occurred during the initialize Vol
 2024-02-23 11:29:27.357 +07:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 356.9838ms
 2024-02-23 11:29:27.357 +07:00 [INF] Executed endpoint 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)'
 2024-02-23 11:29:27.358 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44371/Abp/ApplicationConfigurationScript - 200 8210 application/javascript 361.1277ms
+2024-04-23 15:44:37.835 +07:00 [INF] Starting web host.
