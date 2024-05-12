@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Order</RootNamespace>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Ddd.Domain" Version="8.1.1" />
+    <ProjectReference Include="..\Order.Domain.Shared\Order.Domain.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

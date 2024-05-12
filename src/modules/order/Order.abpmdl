@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "Order.Domain.Shared": {
+      "path": "src/Order.Domain.Shared/Order.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Order.Domain": {
+      "path": "src/Order.Domain/Order.Domain.abppkg",
+      "folder": "src"
+    },
+    "Order.Application.Contracts": {
+      "path": "src/Order.Application.Contracts/Order.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Order.Application": {
+      "path": "src/Order.Application/Order.Application.abppkg",
+      "folder": "src"
+    },
+    "Order.EntityFrameworkCore": {
+      "path": "src/Order.EntityFrameworkCore/Order.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Order.MongoDB": {
+      "path": "src/Order.MongoDB/Order.MongoDB.abppkg",
+      "folder": "src"
+    },
+    "Order.HttpApi": {
+      "path": "src/Order.HttpApi/Order.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Order.HttpApi.Client": {
+      "path": "src/Order.HttpApi.Client/Order.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Order.TestBase": {
+      "path": "test/Order.TestBase/Order.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Order.EntityFrameworkCore.Tests": {
+      "path": "test/Order.EntityFrameworkCore.Tests/Order.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Order.MongoDB.Tests": {
+      "path": "test/Order.MongoDB.Tests/Order.MongoDB.Tests.abppkg",
+      "folder": "test"
+    },
+    "Order.Domain.Tests": {
+      "path": "test/Order.Domain.Tests/Order.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Order.Application.Tests": {
+      "path": "test/Order.Application.Tests/Order.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Order.HttpApi.Host": {
+      "path": "host/Order.HttpApi.Host/Order.HttpApi.Host.abppkg",
+      "folder": "host"
+    },
+    "Order.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Order.HttpApi.Client.ConsoleTestApp/Order.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Order.AuthServer": {
+      "path": "host/Order.AuthServer/Order.AuthServer.abppkg",
+      "folder": "host"
+    },
+    "Order.Host.Shared": {
+      "path": "host/Order.Host.Shared/Order.Host.Shared.abppkg",
+      "folder": "host"
+    }
+  }
+}
