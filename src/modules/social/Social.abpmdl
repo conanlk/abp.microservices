@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "Social.Domain.Shared": {
+      "path": "src/Social.Domain.Shared/Social.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Social.Domain": {
+      "path": "src/Social.Domain/Social.Domain.abppkg",
+      "folder": "src"
+    },
+    "Social.Application.Contracts": {
+      "path": "src/Social.Application.Contracts/Social.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Social.Application": {
+      "path": "src/Social.Application/Social.Application.abppkg",
+      "folder": "src"
+    },
+    "Social.EntityFrameworkCore": {
+      "path": "src/Social.EntityFrameworkCore/Social.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Social.MongoDB": {
+      "path": "src/Social.MongoDB/Social.MongoDB.abppkg",
+      "folder": "src"
+    },
+    "Social.HttpApi": {
+      "path": "src/Social.HttpApi/Social.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Social.HttpApi.Client": {
+      "path": "src/Social.HttpApi.Client/Social.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Social.TestBase": {
+      "path": "test/Social.TestBase/Social.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Social.EntityFrameworkCore.Tests": {
+      "path": "test/Social.EntityFrameworkCore.Tests/Social.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Social.MongoDB.Tests": {
+      "path": "test/Social.MongoDB.Tests/Social.MongoDB.Tests.abppkg",
+      "folder": "test"
+    },
+    "Social.Domain.Tests": {
+      "path": "test/Social.Domain.Tests/Social.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Social.Application.Tests": {
+      "path": "test/Social.Application.Tests/Social.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Social.HttpApi.Host": {
+      "path": "host/Social.HttpApi.Host/Social.HttpApi.Host.abppkg",
+      "folder": "host"
+    },
+    "Social.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Social.HttpApi.Client.ConsoleTestApp/Social.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Social.AuthServer": {
+      "path": "host/Social.AuthServer/Social.AuthServer.abppkg",
+      "folder": "host"
+    },
+    "Social.Host.Shared": {
+      "path": "host/Social.Host.Shared/Social.Host.Shared.abppkg",
+      "folder": "host"
+    }
+  }
+}
