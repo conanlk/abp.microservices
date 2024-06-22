@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "News": {
+      "path": "News.abpmdl"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard2.1;net8.0</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <RootNamespace>News</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Ddd.Domain" Version="8.1.4" />
+    <ProjectReference Include="..\News.Domain.Shared\News.Domain.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "News.Domain.Shared": {
+      "path": "src/News.Domain.Shared/News.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "News.Domain": {
+      "path": "src/News.Domain/News.Domain.abppkg",
+      "folder": "src"
+    },
+    "News.Application.Contracts": {
+      "path": "src/News.Application.Contracts/News.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "News.Application": {
+      "path": "src/News.Application/News.Application.abppkg",
+      "folder": "src"
+    },
+    "News.EntityFrameworkCore": {
+      "path": "src/News.EntityFrameworkCore/News.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "News.MongoDB": {
+      "path": "src/News.MongoDB/News.MongoDB.abppkg",
+      "folder": "src"
+    },
+    "News.HttpApi": {
+      "path": "src/News.HttpApi/News.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "News.HttpApi.Client": {
+      "path": "src/News.HttpApi.Client/News.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "News.TestBase": {
+      "path": "test/News.TestBase/News.TestBase.abppkg",
+      "folder": "test"
+    },
+    "News.EntityFrameworkCore.Tests": {
+      "path": "test/News.EntityFrameworkCore.Tests/News.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "News.MongoDB.Tests": {
+      "path": "test/News.MongoDB.Tests/News.MongoDB.Tests.abppkg",
+      "folder": "test"
+    },
+    "News.Domain.Tests": {
+      "path": "test/News.Domain.Tests/News.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "News.Application.Tests": {
+      "path": "test/News.Application.Tests/News.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "News.HttpApi.Host": {
+      "path": "host/News.HttpApi.Host/News.HttpApi.Host.abppkg",
+      "folder": "host"
+    },
+    "News.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/News.HttpApi.Client.ConsoleTestApp/News.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "News.AuthServer": {
+      "path": "host/News.AuthServer/News.AuthServer.abppkg",
+      "folder": "host"
+    },
+    "News.Host.Shared": {
+      "path": "host/News.Host.Shared/News.Host.Shared.abppkg",
+      "folder": "host"
+    }
+  }
+}
