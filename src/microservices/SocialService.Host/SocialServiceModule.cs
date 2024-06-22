@@ -11,7 +11,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Social.EntityFrameworkCore;
-using Social.MultiTenancy;
 using StackExchange.Redis;
 using Microsoft.OpenApi.Models;
 using Volo.Abp;
@@ -66,7 +65,7 @@ public class SocialHttpApiHostModule : AbpModule
 
         Configure<AbpMultiTenancyOptions>(options =>
         {
-            options.IsEnabled = MultiTenancyConsts.IsEnabled;
+            options.IsEnabled = true;
         });
 
         if (hostingEnvironment.IsDevelopment())
@@ -177,10 +176,7 @@ public class SocialHttpApiHostModule : AbpModule
         app.UseRouting();
         app.UseCors();
         app.UseAuthentication();
-        if (MultiTenancyConsts.IsEnabled)
-        {
-            app.UseMultiTenancy();
-        }
+        app.UseMultiTenancy();
         app.UseAbpRequestLocalization();
         app.UseAuthorization();
         app.UseSwagger();
