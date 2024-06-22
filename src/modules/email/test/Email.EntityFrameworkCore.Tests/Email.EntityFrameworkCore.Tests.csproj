@@ -13,7 +13,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="8.0.0" />
     <ProjectReference Include="..\..\src\Email.EntityFrameworkCore\Email.EntityFrameworkCore.csproj" />
     <ProjectReference Include="..\Email.Application.Tests\Email.Application.Tests.csproj" />
-    <PackageReference Include="Volo.Abp.EntityFrameworkCore.Sqlite" Version="8.0.4" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.Sqlite" Version="8.1.4" />
 
   </ItemGroup>
 

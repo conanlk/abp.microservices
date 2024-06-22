@@ -9,8 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Volo.Abp.AutoMapper" Version="8.1.1" />
-    <PackageReference Include="Volo.Abp.Ddd.Application" Version="8.1.1" />
+    <PackageReference Include="Volo.Abp.AutoMapper" Version="8.1.4" />
+    <PackageReference Include="Volo.Abp.Ddd.Application" Version="8.1.4" />
+    <PackageReference Include="Volo.Abp.TenantManagement.Application" Version="8.1.4" />
     <ProjectReference Include="..\Order.Application.Contracts\Order.Application.Contracts.csproj" />
     <ProjectReference Include="..\Order.Domain\Order.Domain.csproj" />
   </ItemGroup>

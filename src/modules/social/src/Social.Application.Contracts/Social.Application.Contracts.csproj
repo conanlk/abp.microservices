@@ -11,6 +11,7 @@
   <ItemGroup>
     <PackageReference Include="Volo.Abp.Ddd.Application.Contracts" Version="8.1.4" />
     <PackageReference Include="Volo.Abp.Authorization" Version="8.1.4" />
+    <PackageReference Include="Volo.Abp.TenantManagement.Application.Contracts" Version="8.1.4" />
     <ProjectReference Include="..\Social.Domain.Shared\Social.Domain.Shared.csproj" />
   </ItemGroup>
 
