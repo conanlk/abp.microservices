@@ -10,7 +10,7 @@ namespace Identity;
 
 public class Program
 {
-    public async static Task<int> Main(string[] args)
+    public static async Task<int> Main(string[] args)
     {
         Log.Logger = new LoggerConfiguration()
 #if DEBUG
@@ -27,7 +27,7 @@ public class Program
 
         try
         {
-            Log.Information("Starting web host.");
+            Log.Information("Starting web host");
             var builder = WebApplication.CreateBuilder(args);
             builder.Host.AddAppSettingsSecretsJson()
                 .UseAutofac()
@@ -50,7 +50,7 @@ public class Program
         }
         finally
         {
-            Log.CloseAndFlush();
+            await Log.CloseAndFlushAsync();
         }
     }
 }
