@@ -60,13 +60,13 @@ public class ClientDemoService : ITransientDependency
 
         var accessToken = await _authenticationService.GetAccessTokenAsync(
             new IdentityClientConfiguration(
-                _configuration["IdentityClients:Default:Authority"],
-                _configuration["IdentityClients:Default:Scope"],
-                _configuration["IdentityClients:Default:ClientId"],
-                _configuration["IdentityClients:Default:ClientSecret"],
-                _configuration["IdentityClients:Default:GrantType"],
-                _configuration["IdentityClients:Default:UserName"],
-                _configuration["IdentityClients:Default:UserPassword"]
+                _configuration["IdentityClients:Default:Authority"] ?? string.Empty,
+                _configuration["IdentityClients:Default:Scope"] ?? string.Empty,
+                _configuration["IdentityClients:Default:ClientId"] ?? string.Empty,
+                _configuration["IdentityClients:Default:ClientSecret"] ?? string.Empty,
+                _configuration["IdentityClients:Default:GrantType"] ?? string.Empty,
+                _configuration["IdentityClients:Default:UserName"] ?? string.Empty,
+                _configuration["IdentityClients:Default:UserPassword"] ?? string.Empty
             )
         );
 
