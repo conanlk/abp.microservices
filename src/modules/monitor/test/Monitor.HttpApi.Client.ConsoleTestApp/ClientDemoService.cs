@@ -114,11 +114,11 @@ public class ClientDemoService : ITransientDependency
         var tokenResponse = await client.RequestPasswordTokenAsync(new PasswordTokenRequest
         {
             Address = disco.TokenEndpoint,
-            ClientId = _configuration["IdentityClients:Default:ClientId"],
-            ClientSecret = _configuration["IdentityClients:Default:ClientSecret"],
-            UserName = _configuration["IdentityClients:Default:UserName"],
-            Password = _configuration["IdentityClients:Default:UserPassword"],
-            Scope = _configuration["IdentityClients:Default:Scope"]
+            ClientId = _configuration["IdentityClients:Default:ClientId"] ?? string.Empty,
+            ClientSecret = _configuration["IdentityClients:Default:ClientSecret"] ?? string.Empty,
+            UserName = _configuration["IdentityClients:Default:UserName"] ?? string.Empty,
+            Password = _configuration["IdentityClients:Default:UserPassword"] ?? string.Empty,
+            Scope = _configuration["IdentityClients:Default:Scope"] ?? string.Empty
         });
 
         if (tokenResponse.IsError)
@@ -133,7 +133,7 @@ public class ClientDemoService : ITransientDependency
 
         using (var httpClient = new HttpClient())
         {
-            httpClient.SetBearerToken(tokenResponse.AccessToken);
+            if (tokenResponse.AccessToken != null) httpClient.SetBearerToken(tokenResponse.AccessToken);
 
             var url = _configuration["RemoteServices:Monitor:BaseUrl"] +
                       "api/Monitor/sample/authorized";

@@ -251,12 +251,8 @@ paket-files/
 .idea/
 *.sln.iml
 
-# notitication
-host/notitication.AuthServer/Logs/logs.txt
-host/notitication.HttpApi.Host/Logs/logs.txt
-host/notitication.Web.Host/Logs/logs.txt
-host/notitication.Web.Unified/Logs/logs.txt
-host/notitication.Blazor.Server.Host/Logs/logs.txt
-
 # Use abp install-libs to restore.
 **/wwwroot/libs/*
+
+# Logs
+Logs/
