@@ -3,7 +3,6 @@
   "name": "abp-microservice-authserver",
   "private": true,
   "dependencies": {
-    "@abp/aspnetcore.mvc.ui.theme.basic": "~8.1.4",
-    "@abp/ng.tenant-management": "~8.1.4"
+    "@abp/aspnetcore.mvc.ui.theme.basic": "~8.1.4"
   }
 }
