@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "Wallet.Domain.Shared": {
+      "path": "src/Wallet.Domain.Shared/Wallet.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Wallet.Domain": {
+      "path": "src/Wallet.Domain/Wallet.Domain.abppkg",
+      "folder": "src"
+    },
+    "Wallet.Application.Contracts": {
+      "path": "src/Wallet.Application.Contracts/Wallet.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Wallet.Application": {
+      "path": "src/Wallet.Application/Wallet.Application.abppkg",
+      "folder": "src"
+    },
+    "Wallet.EntityFrameworkCore": {
+      "path": "src/Wallet.EntityFrameworkCore/Wallet.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Wallet.MongoDB": {
+      "path": "src/Wallet.MongoDB/Wallet.MongoDB.abppkg",
+      "folder": "src"
+    },
+    "Wallet.HttpApi": {
+      "path": "src/Wallet.HttpApi/Wallet.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Wallet.HttpApi.Client": {
+      "path": "src/Wallet.HttpApi.Client/Wallet.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Wallet.TestBase": {
+      "path": "test/Wallet.TestBase/Wallet.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Wallet.EntityFrameworkCore.Tests": {
+      "path": "test/Wallet.EntityFrameworkCore.Tests/Wallet.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Wallet.MongoDB.Tests": {
+      "path": "test/Wallet.MongoDB.Tests/Wallet.MongoDB.Tests.abppkg",
+      "folder": "test"
+    },
+    "Wallet.Domain.Tests": {
+      "path": "test/Wallet.Domain.Tests/Wallet.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Wallet.Application.Tests": {
+      "path": "test/Wallet.Application.Tests/Wallet.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Wallet.HttpApi.Host": {
+      "path": "host/Wallet.HttpApi.Host/Wallet.HttpApi.Host.abppkg",
+      "folder": "host"
+    },
+    "Wallet.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Wallet.HttpApi.Client.ConsoleTestApp/Wallet.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Wallet.AuthServer": {
+      "path": "host/Wallet.AuthServer/Wallet.AuthServer.abppkg",
+      "folder": "host"
+    },
+    "Wallet.Host.Shared": {
+      "path": "host/Wallet.Host.Shared/Wallet.Host.Shared.abppkg",
+      "folder": "host"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Wallet": {
+      "path": "Wallet.abpmdl"
+    }
+  }
+}
