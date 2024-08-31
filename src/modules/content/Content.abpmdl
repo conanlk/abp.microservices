@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "Content.Domain.Shared": {
+      "path": "src/Content.Domain.Shared/Content.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Content.Domain": {
+      "path": "src/Content.Domain/Content.Domain.abppkg",
+      "folder": "src"
+    },
+    "Content.Application.Contracts": {
+      "path": "src/Content.Application.Contracts/Content.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Content.Application": {
+      "path": "src/Content.Application/Content.Application.abppkg",
+      "folder": "src"
+    },
+    "Content.EntityFrameworkCore": {
+      "path": "src/Content.EntityFrameworkCore/Content.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Content.MongoDB": {
+      "path": "src/Content.MongoDB/Content.MongoDB.abppkg",
+      "folder": "src"
+    },
+    "Content.HttpApi": {
+      "path": "src/Content.HttpApi/Content.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Content.HttpApi.Client": {
+      "path": "src/Content.HttpApi.Client/Content.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Content.TestBase": {
+      "path": "test/Content.TestBase/Content.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Content.EntityFrameworkCore.Tests": {
+      "path": "test/Content.EntityFrameworkCore.Tests/Content.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Content.MongoDB.Tests": {
+      "path": "test/Content.MongoDB.Tests/Content.MongoDB.Tests.abppkg",
+      "folder": "test"
+    },
+    "Content.Domain.Tests": {
+      "path": "test/Content.Domain.Tests/Content.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Content.Application.Tests": {
+      "path": "test/Content.Application.Tests/Content.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Content.HttpApi.Host": {
+      "path": "host/Content.HttpApi.Host/Content.HttpApi.Host.abppkg",
+      "folder": "host"
+    },
+    "Content.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Content.HttpApi.Client.ConsoleTestApp/Content.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Content.AuthServer": {
+      "path": "host/Content.AuthServer/Content.AuthServer.abppkg",
+      "folder": "host"
+    },
+    "Content.Host.Shared": {
+      "path": "host/Content.Host.Shared/Content.Host.Shared.abppkg",
+      "folder": "host"
+    }
+  }
+}

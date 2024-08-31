@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Content</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore" Version="8.2.2" />
+    <PackageReference Include="Volo.Abp.TenantManagement.EntityFrameworkCore" Version="8.1.4" />
+    <ProjectReference Include="..\Content.Domain\Content.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
