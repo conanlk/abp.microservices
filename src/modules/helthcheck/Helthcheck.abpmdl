@@ -1,0 +1,111 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "Helthcheck.Domain.Shared": {
+      "path": "src/Helthcheck.Domain.Shared/Helthcheck.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Helthcheck.Domain": {
+      "path": "src/Helthcheck.Domain/Helthcheck.Domain.abppkg",
+      "folder": "src"
+    },
+    "Helthcheck.Application.Contracts": {
+      "path": "src/Helthcheck.Application.Contracts/Helthcheck.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Helthcheck.Application": {
+      "path": "src/Helthcheck.Application/Helthcheck.Application.abppkg",
+      "folder": "src"
+    },
+    "Helthcheck.EntityFrameworkCore": {
+      "path": "src/Helthcheck.EntityFrameworkCore/Helthcheck.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Helthcheck.MongoDB": {
+      "path": "src/Helthcheck.MongoDB/Helthcheck.MongoDB.abppkg",
+      "folder": "src"
+    },
+    "Helthcheck.HttpApi": {
+      "path": "src/Helthcheck.HttpApi/Helthcheck.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Helthcheck.HttpApi.Client": {
+      "path": "src/Helthcheck.HttpApi.Client/Helthcheck.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Helthcheck.TestBase": {
+      "path": "test/Helthcheck.TestBase/Helthcheck.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Helthcheck.EntityFrameworkCore.Tests": {
+      "path": "test/Helthcheck.EntityFrameworkCore.Tests/Helthcheck.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Helthcheck.MongoDB.Tests": {
+      "path": "test/Helthcheck.MongoDB.Tests/Helthcheck.MongoDB.Tests.abppkg",
+      "folder": "test"
+    },
+    "Helthcheck.Domain.Tests": {
+      "path": "test/Helthcheck.Domain.Tests/Helthcheck.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Helthcheck.Application.Tests": {
+      "path": "test/Helthcheck.Application.Tests/Helthcheck.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Helthcheck.HttpApi.Host": {
+      "path": "host/Helthcheck.HttpApi.Host/Helthcheck.HttpApi.Host.abppkg",
+      "folder": "host"
+    },
+    "Helthcheck.Web": {
+      "path": "src/Helthcheck.Web/Helthcheck.Web.abppkg",
+      "folder": "src"
+    },
+    "Helthcheck.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Helthcheck.HttpApi.Client.ConsoleTestApp/Helthcheck.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Helthcheck.Web.Host": {
+      "path": "host/Helthcheck.Web.Host/Helthcheck.Web.Host.abppkg",
+      "folder": "host"
+    },
+    "Helthcheck.AuthServer": {
+      "path": "host/Helthcheck.AuthServer/Helthcheck.AuthServer.abppkg",
+      "folder": "host"
+    },
+    "Helthcheck.Host.Shared": {
+      "path": "host/Helthcheck.Host.Shared/Helthcheck.Host.Shared.abppkg",
+      "folder": "host"
+    },
+    "Helthcheck.Web.Unified": {
+      "path": "host/Helthcheck.Web.Unified/Helthcheck.Web.Unified.abppkg",
+      "folder": "host"
+    },
+    "Helthcheck.Blazor": {
+      "path": "src/Helthcheck.Blazor/Helthcheck.Blazor.abppkg",
+      "folder": "src"
+    },
+    "Helthcheck.Blazor.Host": {
+      "path": "host/Helthcheck.Blazor.Host/Helthcheck.Blazor.Host.abppkg",
+      "folder": "host"
+    },
+    "Helthcheck.Blazor.Server": {
+      "path": "src/Helthcheck.Blazor.Server/Helthcheck.Blazor.Server.abppkg",
+      "folder": "src"
+    },
+    "Helthcheck.Blazor.WebAssembly": {
+      "path": "src/Helthcheck.Blazor.WebAssembly/Helthcheck.Blazor.WebAssembly.abppkg",
+      "folder": "src"
+    },
+    "Helthcheck.Blazor.Server.Host": {
+      "path": "host/Helthcheck.Blazor.Server.Host/Helthcheck.Blazor.Server.Host.abppkg",
+      "folder": "host"
+    }
+  }
+}

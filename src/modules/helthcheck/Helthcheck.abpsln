@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Helthcheck": {
+      "path": "Helthcheck.abpmdl"
+    }
+  }
+}
