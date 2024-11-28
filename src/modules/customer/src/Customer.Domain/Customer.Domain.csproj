@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Volo.Abp.Ddd.Domain" Version="8.1.4" />
+    <PackageReference Include="Volo.Abp.Ddd.Domain" Version="8.3.0" />
     <PackageReference Include="Volo.Abp.TenantManagement.Domain" Version="8.1.4" />
     <ProjectReference Include="..\Customer.Domain.Shared\Customer.Domain.Shared.csproj" />
   </ItemGroup>
