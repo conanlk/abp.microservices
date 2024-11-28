@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Volo.Abp.EntityFrameworkCore" Version="8.1.4" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore" Version="8.3.0" />
     <PackageReference Include="Volo.Abp.Identity.EntityFrameworkCore" Version="8.1.4" />
     <PackageReference Include="Volo.Abp.IdentityServer.EntityFrameworkCore" Version="8.1.4" />
     <ProjectReference Include="..\Identity.Domain\Identity.Domain.csproj" />
